@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-nga-registration = napari_nga_registration:napari.yaml

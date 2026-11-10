@@ -1,0 +1,8 @@
+napari
+napari-stitcher
+numpy
+pathlib
+pandas
+magicgui
+natsort
+distinctipy

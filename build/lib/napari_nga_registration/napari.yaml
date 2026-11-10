@@ -1,0 +1,10 @@
+name: napari-nga-registration
+contributions:
+  commands:
+    - id: napari-nga-registration.say_hi
+      title: Say hello, world!
+      python_name: napari_nga_registration:show_hello_message
+  widgets:
+    - command: napari-nga-registration.say_hi  # note, same as command.id above
+      display_name: Hello World
+      autogenerate: true

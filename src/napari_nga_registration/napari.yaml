@@ -1,0 +1,10 @@
+name: napari-nga-registration
+contributions:
+  commands:
+    - id: napari-nga-registration.start_registration
+      title: Start Registration
+      python_name: napari_nga_registration.rough_register:rough_register_begin
+  widgets:
+    - command: napari-nga-registration.start_registration
+      display_name: Start Registration
+      autogenerate: true

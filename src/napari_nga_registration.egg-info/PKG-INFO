@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: napari-nga-registration
+Version: 0.0.1
+Classifier: Framework :: napari
+Requires-Dist: napari
+Requires-Dist: napari-stitcher
+Requires-Dist: numpy
+Requires-Dist: pathlib
+Requires-Dist: pandas
+Requires-Dist: magicgui
+Requires-Dist: natsort
+Requires-Dist: distinctipy

@@ -1,0 +1,23 @@
+[project]
+name = "napari-nga-registration"
+version = "0.0.1"
+classifiers = [
+    "Framework :: napari",
+]
+dependencies = ["napari", "napari-stitcher", "numpy", "pathlib", "pandas", "magicgui", "natsort", "distinctipy"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml"]
+
+[project.entry-points."napari.manifest"]
+napari-nga-registration = "napari_nga_registration:napari.yaml"
